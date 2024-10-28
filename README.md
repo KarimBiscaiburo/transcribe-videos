@@ -18,8 +18,8 @@ Esto va a crear una carpeta "transcripciones" y dentro se guardaran todas las tr
 >[!TIP]
 > Es recomendable crear un entorno virtual para instalar las dependencias, esto para no instalarlas globalmente en tu sistema y no generar posibles conflictos.
 > * Para esto puedes ejecutar los siguientes comandos:
-> 1. Crear entorno virtual: "python -m venv venv".
-> 2. Activar el entorno: "venv/Scripts/activate (Windows) ; source venv/bin/activate (Linux/macOS)".
+> 1. Crear entorno virtual: "python -m venv .venv".
+> 2. Activar el entorno: "./.venv/Scripts/activate (Windows) ; source venv/bin/activate (Linux/macOS)".
 
 >[!WARNING]
 > Es posible que dependiendo las restricciones del sistema que tengas configurada, tengas errores al crear el entorno virtual. Puedes ejecutar Powershell como administrador, ejecutar "Set-ExecutionPolicy RemoteSigned", activar el entorno virtual y por último ejecutar "Set-ExecutionPolicy Restricted".
